@@ -21,7 +21,7 @@ public class ItemController {
 
     private IitemService service;
     //En el Qualifier cambiar el nombre de acuerdo al servicio que se desea utilizar, en este caso el de WebFlux
-    public ItemController(@Qualifier("WebClientService")IitemService service) {
+    public ItemController(@Qualifier("FeignService")IitemService service) {
         this.service = service;
     }
 

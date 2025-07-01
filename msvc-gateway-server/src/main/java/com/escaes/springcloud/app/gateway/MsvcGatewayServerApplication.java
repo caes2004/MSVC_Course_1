@@ -1,4 +1,4 @@
-package com.escaes.springcloud.app.gateway.msvc_gateway_server;
+package com.escaes.springcloud.app.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
